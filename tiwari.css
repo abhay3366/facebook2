@@ -1,0 +1,242 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.grid-container{
+	display:grid;
+	grid-gap:3px;
+	 grid-template-columns: 80px 480px 100px 60px 100px 50px 50px 50px 40px 40px 30px auto;
+	 background:#2851A3;
+	 height:50px;
+	 grid-template-rows:50px 50px 50px 50px 50px 50px 50px;
+	 position:fixed;
+	 top:0px;
+	 left:0px;
+	z-index:555; 
+}
+.h{
+	background:#2851A3;
+	
+}
+#h1 form input{
+	width:435px;
+	margin-top:7px;
+	height:33px;
+	margin-left:2px;
+}
+.search{
+	margin-top:7px;
+}
+#h7 i{
+	margin-left:50px;
+	padding-top:7px;
+	color:white;
+	height:5px;
+	
+}
+#h2 button{
+	margin-top:10px;
+	background:blue;
+	border:none;
+	font-size:13px;
+	color:white;
+	font-weight:bold;
+	margin-left:6px;
+	background:#2851A3;
+}
+#h3 button{
+	margin-top:10px;
+	font-size:13px;
+	color:white;
+	font-weight:bold;
+	background:#2851A3;
+	border:none;
+}
+#h4 button{
+	margin-top:10px;
+	font-size:13px;
+	color:white;
+	font-weight:bold;
+	background:#2851A3;
+	border:none;
+	margin-left:-13px;
+}
+#h5 button{
+	margin-top:10px;
+	font-size:13px;
+	font-weight:bold;
+	color:white;
+	background:#2851A3;
+	border:none;
+	margin-left:-25px;
+}
+#h6 a i{
+	padding-left:5px;
+	padding-top:7px;
+	padding-top:15px;
+	color:#282828;
+}
+#h8 a i{
+	padding-left:8px;
+	padding-top:7px;
+	padding-top:15px;
+	color:#282828;
+}
+#h9 a i{
+	padding-left:5px;
+	padding-top:7px;
+	padding-top:15px;
+	color:#282828;
+}
+#h10 a i{
+	padding-left:5px;
+	padding-top:7px;
+	padding-top:15px;
+	color:#282828;
+}
+#h11 a i{
+	padding-left:5px;
+	padding-top:15px;
+	color:#282828;
+}
+/* hover on heading */
+#h2 button:hover{
+	background:#1F3F7D;
+}
+#h3 button:hover{
+	background:#1F3F7D;
+}
+#h4 button:hover{
+	background:#1F3F7D;
+}
+#h5 button:hover{
+	background:#1F3F7D;
+}
+.body{
+	width:1349px;
+	height:1000px;
+}
+.first-box{
+	width:270px;
+	height:575px;
+	background:silver;
+	float:left;
+	position:fixed;
+	top:50px;
+	left:0px;
+}
+.second-box{
+	width:498px;
+	height:2000px;
+	background:pink;
+	float:left;
+	transform:translate(270px,50px);
+	z-index:-111;
+}
+.third-box{
+	width:367px;
+	height:575px;
+	background:red;
+	float:left;
+	position:fixed;
+	top:50px;
+	left:768px;
+	
+}
+.fourth-box{
+	width:214px;
+	height:575px;
+	background:blue;
+	float:left;
+	position:fixed;
+	top:50px;
+	left:1135px;
+
+}
+.first_box_list{
+	padding-left:80px;
+}
+.first_box_list>li{
+	list-style:none;
+}
+.first_box_list>li>a{
+	text-decoration:none;
+}
+#first_box_list_1{
+	line-height:40px;
+}
+#first_box_list_2{
+	position:relative;
+}
+#first_box_list_3{
+	
+}
+#first_box_list_4{
+	
+}
+#first_box_list_5{
+	
+}
+#first_box_list_6{
+line-height:35px;	
+}
+#first_box_list_7{
+
+}
+#first_box_list_8{
+	
+}
+#first_box_list_9{
+	
+}
+#first_box_list_10{
+	
+}
+#first_box_list_11{
+	
+}
+#first_box_list_12{
+	
+}
+#first_box_list_13{
+	
+}
+#first_box_list_14{
+	
+}
+.first_box_list_class{
+	padding-top:5px;
+}
+#first_box_list_2 a span{
+	padding-left:85px;
+	display:none;
+}
+#first_box_list_2:hover span{
+	display:block;
+	display:inline-block;
+}
+#first_box_list_6 a span{
+	padding-left:65px;
+}
+#first_box_list_7 a span{
+	padding-left:33px;
+}
+.first_box_list_class:hover{
+	background:orange;
+	border:1px solid red;
+}
+#displayDiv{
+	position:absolute;
+	top:25px;
+	left:70px;
+}
+#displayDiv2{
+	position:absolute;
+	top:230px;
+	left:160px;
+}
+/*-------------------------------------------------------- Second Bar or second box---------------------------------------------------- --*/
+#your_mind_tripathi{
+	width:497px;
+}

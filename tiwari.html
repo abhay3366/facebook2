@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="tiwari.css">
+	<script src="https://kit.fontawesome.com/5fd7dd0745.js" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container-fluid grid-container">
+		<div class="h" id="h7"><i class="fa fa-facebook-square facebook fa-2x" aria-hidden="true" ></i></div>
+		<div class="h" id="h1">
+			<form>
+				<div class="form-row align-items-center">
+					<div class="col-auto">
+					  <label class="sr-only" for="inlineFormInputGroup">Username</label>
+					  <div class="input-group mb-2">
+						<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+						<div class="input-group-prepend">
+						  <div class="input-group-text search"><i class="fa fa-search" aria-hidden="true"></i></div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</form>
+		</div>
+		<div class="h" id="h2">
+			<!--<input type="button" value="Tiphati Road" name="Tiphati">-->
+			<button type="submit" class="btn" value="Tiphati Road" name="Tiphati">Tripathi Road</button>
+		</div>
+		<div class="h" id="h3">
+			<button type="submit" class="btn" value="home" name="home">Home</button>
+		</div>
+		<div class="h" id="h4">
+			<button type="submit" class="btn" value="friend" name="friend">Find Friend</button>
+		</div>
+		<div class="h" id="h5">
+			<button type="submit" class="btn" value="create" name="create">Create</button>
+		</div>
+		<div class="h" id="h6">
+			<a href="#"><i class="fa fa-users fa-lg" aria-hidden="true"></i></a>
+		</div>
+		<div class="h" id="h8">
+			<a href="#"><i class="fa fa-comment fa-lg" aria-hidden="true"></i></a>
+		</div>
+		<div class="h" id="h9">
+			<a href="#"><i class="fa fa-bell fa-lg" aria-hidden="true"></i></a>
+		</div>
+		<div class="h" id="h10">
+			<a href="#"><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i></a>
+		</div>
+		<div class="h" id="h11">
+			<a href="#"><i class="fa fa-caret-down fa-lg" aria-hidden="true"></i></a>
+		</div>
+		<div class="h" id="h12"></div>
+	</div>
+	<div class="body">
+	<!--------------------------------------------------First Bar------------------------------------------------------------->
+		<div class="first-box">
+			<ul class="first_box_list">
+				<li id="first_box_list_1" class="first_box_list_class">
+					<a href="#"> Tiphati Road Lines</a>
+				</li>
+				<li id="first_box_list_2" class="first_box_list_class" >
+					<a href="#" id="abhay"> News Feed<span id="hide_news_feed_div" onClick="myFunction()">...</span></a>
+				</li>
+				<li id="first_box_list_3" class="first_box_list_class">
+					<a href="#"> Messanger</a>
+				</li>
+				<li id="first_box_list_4" class="first_box_list_class">
+					<a href="#"> Watch</a>
+				</li>
+				<li id="first_box_list_5" class="first_box_list_class">
+					<a href="#"> Marketplace</a>
+				</li>
+				<li id="first_box_list_6"  class="first_box_list_class">
+					<a href="#"> Shortcut <span>Edite</span></a>
+				</li>
+				<li id="first_box_list_7"  class="first_box_list_class">
+					<a href="#"> Triphati Road Lines<span id="tripathi_road_lines_div" onClick="myFunction2()">...</span></a>
+				</li>
+				<li id="first_box_list_8"  class="first_box_list_class">
+					<a href="#">Explore</a>
+				</li>
+				<li id="first_box_list_9"  class="first_box_list_class">
+					<a href="#">COVID-19 Information</a>
+				</li>
+				<li id="first_box_list_10"  class="first_box_list_class">
+					<a href="#">Pages</a>
+				</li>
+				<li id="first_box_list_11"  class="first_box_list_class">
+					<a href="#">Events</a>
+				</li>
+				<li id="first_box_list_12"  class="first_box_list_class">
+					<a href="#">Groups</a>
+				</li>
+				<li id="first_box_list_13"  class="first_box_list_class">
+					<a href="#">Fundaries</a>
+				</li>
+				<li id="first_box_list_14"  class="first_box_list_class">
+					<a href="#">Sea mores..</a>
+				</li>
+			</ul>
+		</div>
+<!----------------------------------------------------Second Bar ------------------------------------------------------------>		
+		<div class="second-box">
+				<form action="#" method="post" class="your_mind">
+					<input  placeholder="Describe yourself here..."
+					id="your_mind_tripathi" onclick="myFunction3()" name="your_mind_tripathi" 
+					placeholder="What's on your mind,Tiphati Road?" >
+					</input>
+				</form>
+		</div>
+		<div class="third-box"></div>
+		<div class="fourth-box"></div>
+	</div>
+
+	<!------------------------Script for News Feed------------------------------------------->
+				<script>
+					var div1=document.createElement("div");
+					div1.id="displayDiv";
+					div1.style.width = "100px";
+					div1.style.height = "100px";
+					div1.style.background = "blue";
+					var tNode = document.getElementById("hide_news_feed_div");
+					tNode.appendChild(div1);
+					div1.style.display="none";
+					//function for on click event in news feed
+					function myFunction()
+					{
+						var displayDiv=document.getElementById("displayDiv");
+						if(displayDiv.style.display =="none")
+							{
+								displayDiv.style.display="inline-block";
+								
+							}
+						else{
+							     displayDiv.style.display="none";
+							}
+					}
+				</script>
+				<script>
+					var div1=document.createElement("div");
+					div1.id="displayDiv2";
+					div1.style.width = "100px";
+					div1.style.height = "100px";
+					div1.style.background = "blue";
+					var tNode = document.getElementById("tripathi_road_lines_div");
+					tNode.appendChild(div1);
+					div1.style.display="none";
+					//function for on click event in news feed
+					function myFunction2()
+					{
+						var displayDiv2=document.getElementById("displayDiv2");
+						if(displayDiv2.style.display =="none")
+							{
+								displayDiv2.style.display="inline-block";
+								document.getElementById("displayDiv2").style.right = "100px";
+								
+							}
+						else{
+							     displayDiv2.style.display="none";
+							}
+					}
+				</script>
+	<!------------------------------------------------- Your mind Tiphati -------------------------------------->
+		<script>
+			function myFunction3(){
+				document.getElementById("your_mind_tripathi").style.height="200px";
+				document.getElementById("your_mind_tripathi").style.border="none";
+			}
+		</script>
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

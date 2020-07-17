@@ -1,0 +1,158 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:0px;
+}
+.grid-header{
+	display:grid;
+	 grid-template-columns: 150px 400px 200px auto;
+	 grid-template-rows: 95px ;
+	 
+}
+#h1{
+	background:#4a66a0;
+}
+#h2{
+	background:#4a66a0;
+}
+#h3{
+	background:#4a66a0;
+}
+#h4{
+	background:#4a66a0;
+}
+
+.header{
+	padding:15px;
+}
+#h2 span{
+	font-size:45px;
+	color:white;
+	margin-top:5px;
+	display:inline-block;
+	font-weight:bold;
+}
+.exampleInputEmail1{
+height:25px;
+width:160px;
+margin-bottom:15px;
+display:inline-block;
+}
+.exampleInputPassword1{
+	height:25px;
+	width:160px;
+	margin-right:25px;
+}
+.button{
+	height:27px;
+	width:58px;
+	margin-right:180px;
+	margin-top:30px;
+	background:darkblue;
+	color:white;
+	border:none;
+	
+}
+/*-------------- create account----------------------------------*/
+/*-------------------imageSection--------------------------------*/
+.createAccount{
+	background:#e8ebf3;
+	height:600px;
+}
+#imageSection{
+	background:#e8ebf3;
+	width:760px;
+	height:600px;
+	float:left;
+}
+#accountSection{
+	background:#e8ebf3;
+	width:584px;
+	height:600px;
+	float:left;
+}
+.accountRow{
+	height:100px;
+	background:red;
+}
+#imageSection span:nth-child(1){
+	margin-left:240px;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:40px;
+	display:inline-block;
+	color:#4a66a0;
+}
+#imageSection span:nth-child(2){
+	margin-left:240px;
+	color:#4a66a0;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:8px;
+	display:inline-block;
+}
+#image1{
+	margin-left:200px;
+	margin-top:20px;
+}
+/*--------------------------accountSection--------------------------------*/
+#accountSection span:nth-child(1){
+	margin-left:25px;
+	color:black;
+	font-size:40px;
+	font-weight:bold;
+	margin-top:8px;
+	display:block;
+}
+#accountSection span:nth-child(2){
+	margin-left:30px;
+	color:black;
+	font-size:28px;
+	font-weight:bold;
+	margin-top:-5px;
+	display:block;
+}
+#inputEmail4{
+	width:200px;
+	margin-left:25px;
+	margin-top:25px;
+}
+#inputPassword4{
+	width:200px;
+	margin-left:-65px;
+	margin-top:25px;
+}
+#mobileEmail{
+	width:410px;
+	margin-left:30px;
+}
+#password{
+	width:410px;
+	margin-left:30px;
+}
+.birthday1{
+	width:70px;
+	transform:translateX(30px);	
+}
+.birthday2{
+	width:100px;
+	transform:translateX(30px);	
+}
+.birthday3{
+	width:100px;
+	transform:translateX(30px);	
+	display:block;
+	transform:translateY:20px;
+}
+.radioDiv{
+	transform:translateY(-15px);
+	margin-left:32px;
+}
+.radioDiv  label{
+	color:black;
+	font-size:20px;
+}
+.but{
+	width:180px;
+	margin-top:25px;
+}
